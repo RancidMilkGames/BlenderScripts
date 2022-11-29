@@ -34,3 +34,7 @@ that Blender runs just does your determined number of conversions and then
 closes Blender. This frees up the resources and cleans the scene. The 
 external script then runs Blender again and passes it the script to run 
 again. This continues until all the conversions are done.
+
+Currently, paths and variables need to be set in the scrips. If the script
+ever starts seeing actual use, I'll probably just make it a Blender addon
+that can be easily setup with a GUI.
